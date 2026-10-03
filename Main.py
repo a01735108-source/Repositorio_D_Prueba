@@ -9,13 +9,18 @@ def art():
     fecha=int(input("¿Para que fecha te gustaria?"))
 
     if fecha in range(1,10):
-        print("5sos esta disponible!")
+        print("MCR esta disponible!")
 
     elif fecha in range(11,18):
-        print("MCR esta en la ciudad!")
+        print("5sos esta en la ciudad!")
 
-    elif fecha in range(18,28):
+    elif fecha in range(18,26):
         print("FallOutBoy aun tiene boletos!")
 
-    else:
+    elif fecha in range(27,31):
         print("Twenty One Pilots se presenta cerca!")
+
+    else:
+        print("Upps no hay eventos disponibles :(")
+        
+print(art())
